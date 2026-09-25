@@ -1,0 +1,3 @@
+/* Contact.css */
+.contact p{color:var(--text-dim);margin-bottom:22px;}
+.contact-links{display:flex;gap:14px;flex-wrap:wrap;}

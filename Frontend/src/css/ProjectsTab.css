@@ -1,0 +1,165 @@
+.projects-tab h3 {
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+}
+
+.projects-tab .error-msg {
+  background: #fee;
+  color: #d33;
+  padding: 0.6rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.projects-tab .add-new-btn {
+  background: #2f5af2;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  transition: opacity 0.2s;
+}
+
+.projects-tab .add-new-btn:hover {
+  opacity: 0.9;
+}
+
+.projects-tab .admin-form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 0.9rem;
+  max-width: 600px;
+}
+
+.projects-tab .admin-form label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.projects-tab .admin-form input,
+.projects-tab .admin-form textarea {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.projects-tab .admin-form input:focus,
+.projects-tab .admin-form textarea:focus {
+  outline: none;
+  border-color: #2f5af2;
+}
+
+.projects-tab .admin-form textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.projects-tab .form-actions {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.projects-tab .form-actions button {
+  padding: 0.55rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.projects-tab .btn-save {
+  background: #2f5af2;
+  color: #fff;
+}
+
+.projects-tab .btn-save:hover {
+  opacity: 0.9;
+}
+
+.projects-tab .btn-cancel {
+  background: #eee;
+  color: #333;
+}
+
+.projects-tab .btn-cancel:hover {
+  background: #e0e0e0;
+}
+
+.projects-tab .admin-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.projects-tab .admin-list-item {
+  background: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.projects-tab .admin-list-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-tab .admin-list-item-info strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: #1a1a1a;
+}
+
+.projects-tab .admin-list-item-info span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.projects-tab .admin-list-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.projects-tab .admin-list-actions button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.projects-tab .btn-edit {
+  background: #eef2ff;
+  color: #2f5af2;
+}
+
+.projects-tab .btn-edit:hover {
+  background: #dce4ff;
+}
+
+.projects-tab .btn-delete {
+  background: #fee;
+  color: #d33;
+}
+
+.projects-tab .btn-delete:hover {
+  background: #fdd;
+}

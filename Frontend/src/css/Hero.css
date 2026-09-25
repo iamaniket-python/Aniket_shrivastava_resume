@@ -1,0 +1,13 @@
+/* Hero.css */
+header.hero{padding:80px 0 60px;}
+.eyebrow{font-size:0.85rem;color:var(--accent);font-weight:600;margin-bottom:14px;}
+h1{font-size:clamp(2rem,5vw,2.8rem);font-weight:800;letter-spacing:-0.02em;line-height:1.15;}
+.sub{margin-top:18px;color:var(--text-dim);font-size:1.05rem;max-width:560px;}
+.sub b{color:var(--text);}
+.hero-actions{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap;}
+
+@media (max-width:600px){
+  header.hero{padding:50px 0 36px;}
+  .hero-actions{flex-direction:column;align-items:stretch;}
+  .btn{text-align:center;}
+}
